@@ -1,0 +1,20 @@
+.cartoes{
+    width: 300px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 15px;
+    padding: 30px;
+    transition: all 0.5s;
+}
+
+#caixa_conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.cartoes:hover{
+    background-color: black;
+    color: white;
+    scale: 1.2;
+    cursor: pointer;
+}
